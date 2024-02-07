@@ -12,6 +12,12 @@ body > div {
 a {
     font-size: 18px;
     font-weight: 600;
+    color: #352e87;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .title {
@@ -58,4 +64,27 @@ a {
 .blue {
     background-color: #275db3;
     color: white;
+}
+
+/* Footer.css */
+
+.footer {
+    background-color: #171515;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
