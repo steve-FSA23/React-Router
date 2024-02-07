@@ -9,6 +9,16 @@ body > div {
     width: 100vw;
 }
 
+a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title {
+    text-align: center;
+    margin: 2rem;
+}
+
 #container {
     height: 100%;
     display: flex;
@@ -35,8 +45,13 @@ body > div {
     justify-content: center;
 }
 
+.home {
+    background-color: #6c2e93;
+    color: beige;
+}
+
 .red {
-    background-color: #b05f6d;
+    background-color: #b31630;
     color: white;
 }
 
